@@ -1,0 +1,143 @@
+@media all and (min-width: 1200px){
+    nav.navbar.navbar-expand-lg, .footer-container {
+        max-width: 1205px;
+        margin: auto;
+    }
+}
+div#navbarNav ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+
+}
+div#navbarNav li a{
+     padding: 5px 15px;
+    text-decoration: none;
+    color: black;
+}
+div#navbarNav {
+    width: 100%;
+    justify-content: space-between;
+}
+div#navbarNav li a:hover{
+    color: red;
+}
+main#primary {
+    min-height: 400px;
+}
+.row.post-content img {
+    width: 100%;
+    object-fit: cover;
+    min-height: 250px;
+    max-height: 250px;
+}
+.row.post-content {
+    background: #f6f6f6;
+}
+header a.btn {
+    min-width: 150px;
+    background: #000000;
+    border-radius: 50px;
+    color: white !important;
+    
+}
+header .page_item a {
+    font-weight: 600;
+}
+header a.btn:hover{
+    border: 1px solid black;
+    color: black !important;
+}
+footer p.menu-title{
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+}
+footer{
+    background: #000000;
+}
+footer .navbar-nav {
+    margin-left: 0;
+}
+footer .bottom-footer {
+    border-top: 1px solid #1C1C1C;
+}
+footer .navbar-nav li a{
+    text-decoration: none;
+    color: #737373;
+    font-size: 14px;
+    line-height: 19px;
+    margin-bottom: 10px;
+    display: block;   
+}
+footer a.btn {
+    background: white;
+    border-radius: 50px;
+    padding: 7px 25px;
+    color: black;
+    margin-top: auto;
+    margin-bottom: 0;
+}
+.footer-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.top-footer {
+    padding-bottom: 60px !important;
+}
+.bottom-footer a:not(.social-item) {
+    color: #737373;
+    text-decoration: none;
+    padding: 0 0 0 20px;
+    border-left: 1px solid #737373;
+    margin-left: 15px;
+}
+ul.socials {
+    list-style: none;
+    display: flex;
+    gap: 13px;
+    margin-left: 0;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+.socials-block{
+    text-align: right;
+    display: flex;
+    justify-content: flex-end;
+}
+.slide-content {
+    position: absolute;
+    top: 0;
+    max-width: 80%;
+    left: 10%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.slide-content>* {
+    max-width: 579px;
+}
+.slide-content h2.title {
+    font-size: 58px;
+    color: white;
+    font-weight: 700;
+    line-height: 63.8px;
+}
+.slide-content .text{
+    font-size: 16px;
+    color: white;
+    max-width: 377px;
+}
+.slide-content .btn {
+    background: white;
+    border-radius: 50px;
+    padding: 7px 25px;
+    color: black;
+    margin-bottom: 0;
+}
